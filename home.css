@@ -168,31 +168,18 @@ h1 {
 
 .icons-grid.single {
   grid-template-columns: 1fr;
-  max-width: 420px;
+  max-width: 320px;
   width: 100%;
 }
 
-.icon-frame {
-  background: var(--panel);
-  border: 1px solid var(--border);
+.hero-icon {
+  width: 100%;
   border-radius: 24px;
-  padding: 16px;
   box-shadow: var(--shadow);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.icon-frame img {
-  width: 100%;
-  border-radius: 18px;
+  border: 1px solid var(--border);
   background: #0d1b16;
   object-fit: contain;
-}
-
-.icon-frame span {
-  color: var(--muted);
-  font-size: 0.95rem;
+  padding: 10px;
 }
 
 .section {
