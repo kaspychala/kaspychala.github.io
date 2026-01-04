@@ -166,6 +166,12 @@ h1 {
   gap: 14px;
 }
 
+.icons-grid.single {
+  grid-template-columns: 1fr;
+  max-width: 420px;
+  width: 100%;
+}
+
 .icon-frame {
   background: var(--panel);
   border: 1px solid var(--border);
